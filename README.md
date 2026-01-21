@@ -2,6 +2,21 @@
 **README.md**
 ```markdown
 # 环境监测数据分析系统
+env-monitor-system/
+├── README.md              # 项目说明
+├── requirements.txt       # 依赖列表
+├── data/                  # 数据目录
+│   └── sensor_data.csv
+├── src/                   # 源代码
+│   ├── __init__.py
+│   ├── data_loader.py     # 数据加载模块
+│   ├── data_analysis.py   # 数据分析模块
+│   └── visualization.py   # 可视化模块
+├── tests/                 # 测试
+│   └── test_analysis.py
+└── docs/                  # 文档
+    └── report.md          # 项目报告
+```
 
 ## 项目简介
 本项目用于分析环境传感器监测数据，包括温度、湿度、PM2.5等指标。
